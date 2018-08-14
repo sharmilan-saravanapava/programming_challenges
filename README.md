@@ -14,7 +14,30 @@ then please skip to **Cloning to your system**.
 ### Mac
 Please paste this to your terminal `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Once completed, then run `brew install git`, and voila!! You have git on your system so you can start the coding 👩‍💻 👨‍💻
+Once completed, then run `brew install git`, and voila!
+
+Run the following commands to configure your Git username and email using the following commands, this will be used to set your **name** and **email**. These details will be associated with any commits that you create:
+
+`git config --global user.name "Your Name"`
+
+`git config --global user.email "youremail@example.com"`
+
+You have git on your system so you can start the coding 👩‍💻 👨‍💻
+
+### Windows
+1. Download the latest [Git for Windows Installer](https://www.atlassian.com/git/tutorials/install-git)
+
+2. When you've successfully started the installer, you should see the **Git Setup** wizard screen. Follow the **Next** and **Finish** prompts to complete the installation. The default options are pretty sensible for most users.
+
+3. Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
+
+4. Run the following commands to configure your Git username and email using the following commands, this will be used to set your **name** and **email**. These details will be associated with any commits that you create:
+
+`git config --global user.name "Your Name"`
+
+`git config --global user.email "youremail@example.com"`
+
+You have git on your system so you can start the coding 👩‍💻 👨‍💻
 
 ## Cloning to your system
 Go to the main [link](https://github.com/niroigen/programming_challenges) and follow these steps
