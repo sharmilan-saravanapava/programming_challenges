@@ -62,4 +62,4 @@ If you are on **Windows** then enter `cd %HOMEPATH%`
 Then type `git clone ` followed by the **url** which you just **copied**
 
 ## Step 5.
-If all went well and you type `ls` on your terminal, you should see `programming_challenges` there! 🎊 
+If all went well and you type `ls` (or `dir` on **Windows**) on your terminal, you should see `programming_challenges` there! 🎊 
