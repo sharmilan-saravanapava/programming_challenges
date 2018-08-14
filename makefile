@@ -17,4 +17,4 @@ main: main.o hello_world.o
 main.o: main.cpp hello_world.h hello_world.cpp
 	$(CXX) $(CXXFLAGS) -c main.cpp
 
-hellow_world.o: hellow_world.h
+hellow_world.o: hello_world.h
