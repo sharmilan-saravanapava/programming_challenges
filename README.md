@@ -40,7 +40,6 @@ You have git on your system so you can start the coding 👩‍💻 👨‍💻
 You have git on your system so you can start the coding 👩‍💻 👨‍💻
 
 ## Cloning to your system
-Go to the main [link](https://github.com/niroigen/programming_challenges) and follow these steps
 
 ## Step 1. 
 Click the ***Clone or Download Button***
