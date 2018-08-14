@@ -39,7 +39,7 @@ You have git on your system so you can start the coding 👩‍💻 👨‍💻
 
 You have git on your system so you can start the coding 👩‍💻 👨‍💻
 
-## Cloning to your system
+# Cloning to your system
 
 ## Step 1. 
 Click the ***Clone or Download Button***
