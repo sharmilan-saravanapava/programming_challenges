@@ -1,0 +1,2 @@
+- [ ] Make sure that you have added the new classes to the **makefile**
+- [ ] Make sure to review your code and that every file has an **new line at the end of file**
