@@ -39,6 +39,8 @@ You have git on your system so you can start the coding 👩‍💻 👨‍💻
 
 You have git on your system so you can start the coding 👩‍💻 👨‍💻
 
+Another thing you are going to need if you are on **Windows** is to install **MinGW** which can be done [here](http://www.mingw.org/)
+
 # Cloning to your system
 
 ## Step 1. 
