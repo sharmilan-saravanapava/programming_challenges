@@ -2,13 +2,14 @@
 #include <string>
 #include "hello_world.h"
 #include "taran_add.h"
+#include "capitalize.h"
+
+using namespace std;
 
 int main()
 {
-	print_hello_world();
 
-	int x=4;
-	int y=2;
+prompter (); 
+	
 
-	std::cout << sum(x, y) << std::endl;
 }
