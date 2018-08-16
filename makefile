@@ -9,7 +9,7 @@ CXXFLAGS = -Wall -g
 # ****************************************************
 # Targets needed to bring the executable up to date
 
-main: main.o hello_world.o taran_add.o capitalize.o reverser.o
+main: main.o hello_world.o taran_add.o reverser.o
 	$(CXX) $(CXXFLAGS) -o main main.o hello_world.o taran_add.o reverser.o
 # The main.o target can be written more simply
 
