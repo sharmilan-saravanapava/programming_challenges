@@ -1,25 +1,17 @@
 #include "reverser.h"
 
-
-
 string reverser(string word){
-
-
 	string new_word= "";
 
-	int i=0;
-
-	for(i= word.length()-1; i>=0; i--){
+	for(int i = word.length()-1; i>=0; i--) {
 		new_word+= word[i];
+	}
 
+	return new_word;
 }
 
-return new_word;
 
-}
-
-
-	void prompt () {
+void prompt () {
 
 	string word= "";
 
@@ -27,6 +19,4 @@ return new_word;
 	cin>>word;
 
 	cout<<reverser(word)<<endl;
-
-
-} 
+}
