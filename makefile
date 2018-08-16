@@ -22,3 +22,4 @@ hellow_world.o: hello_world.h
 taran_add.o: taran_add.h
 
 capitalize.o: capitalize.h
+
