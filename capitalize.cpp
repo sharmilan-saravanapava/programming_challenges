@@ -1,29 +1,18 @@
 #include "capitalize.h"
 
-
 string capitalizer(string input) { 
+	for (int i=0; i<input.length(); i++) {
+		input[i]= (int)input[i] - 32;
+	}
 
-int i; 
-
-for (i=0; i<input.length(); i++) {
-
-	char x = input [i];
-	input[i]= (int)x - 32;
-
-} 
-
- return input;
-
+	return input;
 }
 
-
 void prompter() {
-
 	string input = "";
 
-	cout <<"What  is your name?"<< endl;
+	cout << "What  is your name?" << endl;
 	cin >> input;
 
-	cout << capitalizer(input)<< endl;
-	
+	cout << capitalizer(input) << endl;
 }
