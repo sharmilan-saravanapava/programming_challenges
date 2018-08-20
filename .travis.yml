@@ -1,5 +1,4 @@
 language: cpp
-compiler: g++
 script: make
 
 after_success:
