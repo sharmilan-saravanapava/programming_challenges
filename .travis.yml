@@ -63,8 +63,7 @@ script:
      - cd build
      - cmake ${CMAKE_OPTIONS} -DCMAKE_CXX_FLAGS=${CXX_FLAGS} -DCMAKE_BUILD_TYPE=Coverage -DBUILD_TESTS=ON .. 
      - make
-     - make project1_coverage
      - ctest
 
 after_success:
-    - codecov -t c376990f-2ad6-4f7b-bbdb-5378a52e295c -X gcov
+    - codecov -t 361e9159-eb12-4463-8645-e4f03826bd8b -X gcov
