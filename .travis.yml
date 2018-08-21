@@ -1,4 +1,8 @@
 language: cpp
+
+before_install:
+  - chmod +x get_code_cov.sh
+  
 script: 
 - make
 - get_code_cov.sh
