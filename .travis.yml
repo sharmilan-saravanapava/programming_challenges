@@ -1,7 +1,7 @@
 language: cpp
 script: 
 - make
-- get_code_cov
+- get_code_cov.sh
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
