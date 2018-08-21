@@ -5,7 +5,7 @@ before_install:
   
 script: 
 - make
-- get_code_cov.sh
+- sh get_code_cov.sh
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
