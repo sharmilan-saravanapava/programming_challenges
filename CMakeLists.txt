@@ -11,4 +11,6 @@ add_executable(
 	hello_world.h
 	hello_world.cpp
 	taran_add.cpp
+	reverser.h
+	reverser.cpp
 )
