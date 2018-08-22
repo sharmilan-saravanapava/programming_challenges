@@ -7,12 +7,3 @@ string capitalizer(string input) {
 
 	return input;
 }
-
-void prompter() {
-	string input = "";
-
-	cout << "What  is your name?" << endl;
-	cin >> input;
-
-	cout << capitalizer(input) << endl;
-}

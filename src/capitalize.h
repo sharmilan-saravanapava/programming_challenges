@@ -3,8 +3,5 @@
 #include <iostream>
 
 using namespace std;
-
 	string capitalizer(string input);
-	void prompter();
-
 #endif
