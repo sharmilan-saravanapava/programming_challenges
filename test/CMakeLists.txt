@@ -15,3 +15,4 @@ add_test(
   COMMAND
     ${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_BINDIR}/bin/unit_tests
   )
+  
