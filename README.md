@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/niroigen/programming_challenges.svg?branch=master)](https://travis-ci.org/niroigen/programming_challenges)
 [![codecov](https://codecov.io/gh/niroigen/programming_challenges/branch/master/graph/badge.svg)](https://codecov.io/gh/niroigen/programming_challenges)
+[![CodeFactor](https://www.codefactor.io/repository/github/niroigen/programming_challenges/badge)](https://www.codefactor.io/repository/github/niroigen/programming_challenges)
 
 # Welcome to the Programming Challenges!
 
