@@ -5,5 +5,8 @@
 #include "reverser.h"
 
 int main() {
+	print_hello_world();
+	std::cout << "3 + 4 = " << sum(3,4) << std::endl;
+	std::cout << "Niroigen reversed " << reverser("Niroigen") << std::endl;
 	return 0;
 }
