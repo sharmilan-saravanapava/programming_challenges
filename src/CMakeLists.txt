@@ -1,26 +1,24 @@
-cmake_minimum_required(VERSION 3.0)
+add_library(example "")
 
-set(SOURCE_FILES
-	main.cpp
-	hello_world.h
-	hello_world.cpp
-	taran_add.cpp
-	reverser.h
-	reverser.cpp
-	capitalize.h
-	capitalize.cpp
-	factorial.h
-	factorial.cpp
-)
+target_sources(
+    example
+    PRIVATE
+		main.cpp
+		hello_world.cpp
+		taran_add.cpp
+		reverser.cpp
+		capitalize.cpp
+		factorial.cpp
+	PUBLIC
+		${CMAKE_CURRENT_LIST_DIR}/hello_world.h
+		${CMAKE_CURRENT_LIST_DIR}/reverser.h
+		${CMAKE_CURRENT_LIST_DIR}/capitalize.h
+		${CMAKE_CURRENT_LIST_DIR}/factorial.h
+    )
 
-add_library(complex ${SOURCE_FILES})
-
-set(TEST_FILES
-	tester.cpp
-)
-
-add_executable(tests ${TEST_FILES})
-
-target_link_libraries(tests complex)
-
-add_test(NAME example_test COMMAND tests)
+target_include_directories(
+    example
+    PUBLIC
+        ${CMAKE_CURRENT_LIST_DIR}
+    )
+    
