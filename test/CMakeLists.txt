@@ -1,6 +1,7 @@
 add_executable(
     unit_tests
     test_add.cpp
+    test_reverser.cpp
     test_factorial.cpp
     )
 
