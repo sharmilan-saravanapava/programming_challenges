@@ -4,6 +4,7 @@
 #include "taran_add.h"
 #include "reverser.h"
 #include "capitalize.h"
+#include "factorial.h"
 
 using namespace std;
 
@@ -26,7 +27,16 @@ void reverser_prompter () {
 	cout<<reverser(word)<<endl;
 }
 
+void factorial_prompter() {
+	int x=0;
+
+	cout<<"Please enter a value that you want the factorial of"<<endl;
+	cin>> x;
+
+	cout<<factorial(x)<<endl;
+}
+
 int main() {
-	capitalize_prompter();
+	factorial_prompter();
 }
 

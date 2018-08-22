@@ -9,6 +9,8 @@ set(SOURCE_FILES
 	reverser.cpp
 	capitalize.h
 	capitalize.cpp
+	factorial.h
+	factorial.cpp
 )
 
 add_library(complex ${SOURCE_FILES})
