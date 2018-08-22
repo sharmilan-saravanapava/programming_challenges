@@ -4,5 +4,4 @@
 using namespace std; 
 
 int factorial (int x);
-void input ();
 #endif
