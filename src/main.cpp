@@ -18,7 +18,6 @@ void capitalize_prompter() {
 }
 
 void reverser_prompter () {
-
 	string word= "";
 
 	cout <<"Enter word"<<endl;

@@ -20,7 +20,8 @@ make -j8
 # $? checks what last command outputed
 # If output is 0 then command is succesfuly executed
 # If command fails it outputs number between 0 to 255
-if [ $? -ne 0 ]; then
+if ! make -j8
+then
     error "Error: there are compile errors!"
 	# Terminate script and outputs 3
     exit 3
@@ -29,7 +30,8 @@ fi
 showinfo "Running tests ..."
 make -j8 Example_coverage
 ctest
-if [ $? -ne 0 ]; then
+if ! ctest
+then
     error "Error: there are failed tests!"
     exit 4
 fi
