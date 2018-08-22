@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/niroigen/programming_challenges/branch/master/graph/badge.svg)](https://codecov.io/gh/niroigen/programming_challenges)
+
 # Welcome to the Programming Challenges!
 
 The purpose of this repo is to simply improve programming, whether it would be a specific language, 
