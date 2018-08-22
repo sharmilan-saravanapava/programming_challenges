@@ -1,12 +1,18 @@
 #include "factorial.h"
 
-	int factorial (int x){
-	int y=0;
-	int i=0;
+int factorial (int x){
+	int y=1;
 
-	for (i=x; i>=1; i--){
-		y*= i;
+	if (x < 0) {
+		return y;
 	}
+	else {
+		int i=1;
 
-	return y;
+		for (i=x; i>=1; i--){
+			y*= i;
+		}
+
+		return y;
+	}
 }

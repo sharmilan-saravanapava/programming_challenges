@@ -1,6 +1,7 @@
 add_executable(
     unit_tests
     test_add.cpp
+    test_factorial.cpp
     )
 
 target_link_libraries(
