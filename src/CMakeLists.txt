@@ -7,6 +7,8 @@ set(SOURCE_FILES
 	taran_add.cpp
 	reverser.h
 	reverser.cpp
+	capitalize.h
+	capitalize.cpp
 )
 
 add_library(complex ${SOURCE_FILES})

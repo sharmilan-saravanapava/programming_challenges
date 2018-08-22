@@ -4,6 +4,5 @@
 using namespace std;
 
 string reverser(string word);
-void prompt ();
 
 #endif

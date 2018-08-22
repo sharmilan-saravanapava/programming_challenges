@@ -9,14 +9,3 @@ string reverser(string word){
 
 	return new_word;
 }
-
-
-void prompt () {
-
-	string word= "";
-
-	cout <<"Enter word"<<endl;
-	cin>>word;
-
-	cout<<reverser(word)<<endl;
-}
