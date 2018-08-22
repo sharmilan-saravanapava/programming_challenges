@@ -1,7 +1,7 @@
 #include "capitalize.h"
 
 string capitalizer(string input) { 
-	for (int i=0; i<input.length(); i++) {
+	for (uint i=0; i<input.length(); i++) {
 		input[i]= (int)input[i] - 32;
 	}
 
