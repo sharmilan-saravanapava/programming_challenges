@@ -7,6 +7,7 @@ set(SOURCE_FILES
 	taran_add.cpp
 	reverser.h
 	reverser.cpp
+	capitalize.h
 	capitalize.cpp
 )
 
