@@ -3,6 +3,7 @@ add_executable(
     test_add.cpp
     test_reverser.cpp
     test_factorial.cpp
+    test_capitalize.cpp
     )
 
 target_link_libraries(
