@@ -4,6 +4,7 @@
 #include "taran_add.h"
 #include "reverser.h"
 #include "capitalize.h"
+#include "factorial.h"
 
 using namespace std;
 
