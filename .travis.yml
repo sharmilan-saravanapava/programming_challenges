@@ -14,9 +14,9 @@ addons:
 jobs:
   include:
     - stage: "Compile"
-      script: cmake -H. -Bbuild
+      script: ./run_build.sh
     - stage: "Test"
-      script: sh run_build.sh
+      script: ./run_unit.sh 
 
 after_success:
   - cd ${TRAVIS_BUILD_DIR}
