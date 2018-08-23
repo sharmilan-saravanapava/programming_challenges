@@ -16,7 +16,7 @@ jobs:
     - stage: "Compile"
       script: ./run_build.sh
     - stage: "Test"
-      script: ./run_unit.sh 
+      script: ./run_unit.sh
 
 after_success:
   - cd ${TRAVIS_BUILD_DIR}
