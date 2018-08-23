@@ -11,9 +11,8 @@ showinfo() { echo -e "${BG}$1${NC}"; }
 workingprocess() { echo -e "${BB}$1${NC}"; }
 allert () { echo -e "${RED}$1${NC}"; }
 
-cmake -H. -Bbuild
 cd build
 cmake --build .
 ctest
 
-workingprocess "All tests compile and pass."
+set -e

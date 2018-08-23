@@ -11,11 +11,12 @@ addons:
             - ubuntu-toolchain-r-test
         packages:
             - lcov
-script:
-    ############################################################################
-    # Build main and tests
-    ############################################################################
-     - ./run_build.sh
+jobs:
+  include:
+    - stage: "Compile"
+      script: cmake -H. -Bbuild
+    - stage: "Test"
+      script: sh run_build.sh
 
 after_success:
   - cd ${TRAVIS_BUILD_DIR}
